@@ -1,0 +1,49 @@
+# data-structure
+#include<iostream>
+using namespace std;
+class Node {
+public:
+	char data;
+	Node* next;
+};
+int main() {
+	Node* first = new Node();
+	Node* second = new Node();
+	Node* third = new Node();
+	Node* fourth = new Node();
+	Node* fifth = new Node();
+	first->data = 'T';
+	first->next = second;
+	second->data = 'a';
+	second->next = third;
+	third->data = 's';
+	third->next = fourth;
+	fourth->data = 'n';
+	fourth->next = fifth;
+	fifth->data = NULL;
+	Node* six = new Node();
+	Node* seven = new Node();
+	Node* eight = new Node();
+	Node* nine = new Node();
+	six->data = 'n';
+	six->next = seven;
+	seven->data = 'h';
+	seven->next = eight;
+	eight->data = 's';
+	eight->next = nine;
+	nine->data = NULL;
+	Node* ten = new Node();
+	Node* elven = new Node();
+	Node* twelve = new Node();
+	Node* thirt = new Node();
+	Node* fort = new Node();
+	ten->data = 'T';
+	ten->next = elven;
+	elven->data = 'a';
+	elven->next = twelve;
+	twelve->data = 's';
+	twelve->next = thirt;
+	thirt->data = 'n';
+	thirt->next = fort;
+	fort->data = NULL;
+	cout << "the word is MuM";
